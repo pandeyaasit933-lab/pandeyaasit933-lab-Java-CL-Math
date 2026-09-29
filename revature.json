@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/MathClassTest.java",
+      "testCases": [
+        {
+          "methodName": "mathClassTest1",
+          "label": "Verify mathPow computes 2^2 correctly",
+          "description": "Checks that mathPow(2, 2) returns 4 using double comparison with a small delta."
+        },
+        {
+          "methodName": "mathClassTest2",
+          "label": "Verify mathPow computes 3^4 correctly",
+          "description": "Checks that mathPow(3, 4) returns 81 using double comparison with a small delta."
+        }
+      ]
+    }
+  ]
+}
